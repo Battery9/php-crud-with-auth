@@ -35,10 +35,9 @@ if (isset($_SESSION["username"])) {
         <button type="submit" class="btn btn-primary btn-block mb-4" value="login">
           Sign in
         </button>
-
-        <!-- <div class="text-center">
-          <p>Not a member? <a href="#!">Register</a></p>
-        </div> -->
+        <div class="text-center">
+          <p>Not a member? <a href="register.php">Register</a></p>
+        </div>
       </form>
     </div>
   </body>
